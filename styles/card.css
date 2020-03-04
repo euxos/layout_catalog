@@ -1,0 +1,86 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 14px 14px 15px;
+  background: #fff;
+  border: 1px solid #f3f3f3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px; }
+  .card:hover {
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07); }
+  .card__photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 164px;
+    height: 166px;
+    margin-bottom: 29px; }
+  .card__img {
+    width: 160px;
+    height: 134px; }
+  .card__title {
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500; }
+  .card__code {
+    margin-bottom: 15px;
+    -ms-flex-item-align: start;
+        align-self: start;
+    font-size: 11px;
+    line-height: 13px; }
+  .card__rate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin-bottom: 20px; }
+  .card__reviews {
+    font-size: 11px;
+    text-decoration: none;
+    color: #000; }
+  .card__reviews:hover {
+    color: #00acdc; }
+  .card__price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 11px; }
+  .card__price-value {
+    font-size: 16px;
+    font-weight: 600; }
+  .card__button {
+    width: 100%;
+    height: 40px; }
+
+/*# sourceMappingURL=card.css.map */
