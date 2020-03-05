@@ -5,7 +5,7 @@ $itemCount: 4;
 .row {
   display: flex;
   width: $itemWidth * $itemCount + ($itemCount - 1) * $itemIndent;
-  margin: 50px auto 0;
+  margin: 50px auto;
 
   &__item {
     flex: 200px 0 0;
