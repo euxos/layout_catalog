@@ -3,7 +3,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 944px;
-  margin: 50px auto 0; }
+  margin: 50px auto; }
   .row__item {
     -webkit-box-flex: 200px;
         -ms-flex: 200px 0 0px;

@@ -57,7 +57,9 @@ ul {
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
-  line-height: 60px; }
+  line-height: 60px;
+  -webkit-transition: color 0.35s ease-in-out;
+  transition: color 0.35s ease-in-out; }
 
 .nav__item--active .nav__link::after {
   position: absolute;
@@ -78,7 +80,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   width: 944px;
-  margin: 50px auto 0; }
+  margin: 50px auto; }
   .row__item {
     -webkit-box-flex: 200px;
         -ms-flex: 200px 0 0px;
@@ -103,7 +105,11 @@ ul {
   border: 1px solid #f3f3f3;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-radius: 5px; }
+  border-radius: 5px;
+  -webkit-transition: -webkit-box-shadow 0.35s ease-in-out;
+  transition: -webkit-box-shadow 0.35s ease-in-out;
+  transition: box-shadow 0.35s ease-in-out;
+  transition: box-shadow 0.35s ease-in-out, -webkit-box-shadow 0.35s ease-in-out; }
   .card:hover {
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07); }
@@ -117,9 +123,20 @@ ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 164px;
-    height: 166px;
-    margin-bottom: 29px; }
+    width: 160px;
+    height: 160px;
+    margin-bottom: 29px;
+    -webkit-transition: border-color 0.25s ease-in-out, -webkit-transform 0.35s linear;
+    transition: border-color 0.25s ease-in-out, -webkit-transform 0.35s linear;
+    transition: transform 0.35s linear, border-color 0.25s ease-in-out;
+    transition: transform 0.35s linear, border-color 0.25s ease-in-out, -webkit-transform 0.35s linear;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    cursor: pointer; }
+  .card__photo:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    border-color: #f3f3f3; }
   .card__img {
     width: 160px;
     height: 134px; }
@@ -149,7 +166,9 @@ ul {
   .card__reviews {
     font-size: 11px;
     text-decoration: none;
-    color: #000; }
+    color: #000;
+    -webkit-transition: color 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out; }
   .card__reviews:hover {
     color: #00acdc; }
   .card__price {
@@ -234,7 +253,9 @@ ul {
   line-height: 16px;
   font-weight: 600;
   text-transform: uppercase;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: background-color 0.45s ease-in-out, color 0.35s ease-in-out;
+  transition: background-color 0.45s ease-in-out, color 0.35s ease-in-out; }
   .button:hover {
     color: #00acdc;
     background-color: #fff; }
